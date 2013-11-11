@@ -1,7 +1,7 @@
 {
   "manifest_version": 2,
   "name": "PantaFree",
-  "description": "Remove the annoying modals from pantagraph.com that try to make you pay.",
+  "description": "Remove the annoying modals from pantagraph.com",
   "version": "1.0",
   "permissions": [
     "activeTab"
@@ -19,6 +19,6 @@
   "content_security_policy": "script-src 'self' https://ssl.google-analytics.com; object-src 'self'",
   "browser_action": {
     "default_icon": "16-pantagraph.png",
-    "default_title": "Remove the annoying modals from pantagraph.com that try to make you pay."
+    "default_title": "Remove the annoying modals from pantagraph.com"
   }
 }
