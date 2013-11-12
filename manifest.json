@@ -3,6 +3,7 @@
   "name": "PantaFree",
   "description": "Remove the annoying modals from pantagraph.com",
   "version": "1.0",
+  "icons": { "128": "icon_128.png" },
   "permissions": [
     "activeTab"
   ],
@@ -18,7 +19,7 @@
   ],
   "content_security_policy": "script-src 'self' https://ssl.google-analytics.com; object-src 'self'",
   "browser_action": {
-    "default_icon": "16-pantagraph.png",
+    "default_icon": "icon_16.png",
     "default_title": "Remove the annoying modals from pantagraph.com"
   }
 }
