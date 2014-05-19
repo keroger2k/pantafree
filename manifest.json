@@ -22,7 +22,7 @@
       "run_at": "document_end"      
     }, 
     {
-      "matches": ["http://www.qconline.com/*" "http://qconline.com/*"],
+      "matches": ["http://www.qconline.com/*", "http://qconline.com/*"],
       "js": ["qconline.js"],
       "run_at": "document_end"      
     }, 
