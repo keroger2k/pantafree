@@ -1,4 +1,4 @@
-(function QuadCitiesOnline() {
+(function PeoriaJournalStar() {
 	
 	var constants = {
    		'GREG_BOX': 'gregbox-outer',
