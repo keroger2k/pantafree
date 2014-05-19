@@ -2,7 +2,7 @@
   "manifest_version": 2,
   "name": "PantaFree",
   "description": "Remove the annoying modals from various newspapers",
-  "version": "1.3",
+  "version": "1.4",
   "icons": { "128": "images/icon_128.png" },
   "permissions": [
     "activeTab"
@@ -19,6 +19,11 @@
     {
       "matches": ["http://www.pjstar.com/*"],
       "js": ["pjstar.js"],
+      "run_at": "document_end"      
+    }, 
+    {
+      "matches": ["http://www.qconline.com/*"],
+      "js": ["qconline.js"],
       "run_at": "document_end"      
     }, 
     {
