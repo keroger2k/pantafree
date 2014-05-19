@@ -12,22 +12,22 @@
   },
   "content_scripts": [
     {
-      "matches": ["http://www.pantagraph.com/*"],
+      "matches": ["http://www.pantagraph.com/*", "http://pantagraph.com/*"],
       "js": ["pantagraph.js"],
       "run_at": "document_end"
     }, 
     {
-      "matches": ["http://www.pjstar.com/*"],
+      "matches": ["http://www.pjstar.com/*", "http://pjstar.com/*"],
       "js": ["pjstar.js"],
       "run_at": "document_end"      
     }, 
     {
-      "matches": ["http://www.qconline.com/*"],
+      "matches": ["http://www.qconline.com/*" "http://qconline.com/*"],
       "js": ["qconline.js"],
       "run_at": "document_end"      
     }, 
     {
-      "matches": ["http://www.pgatour.com/*", "http://www.worldgolfchampionships.com/*"],
+      "matches": ["http://www.pgatour.com/*", "http://pgatour.com/*", "http://www.worldgolfchampionships.com/*", "http://worldgolfchampionships.com/*"],
       "js": ["pgatour.js"],
       "run_at": "document_end"      
     }
